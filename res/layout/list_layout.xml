@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#000000"
+    android:orientation="vertical" >
+
+    <app.yakun.nearby.TitleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </app.yakun.nearby.TitleLayout>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+		
+        <TextView 
+            android:id="@+id/within"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Within"
+            android:textColor="#ffffff"
+            />
+        
+        <RadioButton
+            android:id="@+id/radio0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 mile"
+            android:textColor="#ffffff"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2 miles"
+            android:textColor="#ffffff" />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3 miles"
+            android:textColor="#ffffff" />
+    </RadioGroup>
+
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#403e3e"
+        android:dividerHeight="1dp" >
+    </ListView>
+
+</LinearLayout>

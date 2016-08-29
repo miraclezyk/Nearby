@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    
+    <Button 
+        android:id="@+id/title_back"
+        android:layout_width="wrap_content"
+        android:layout_height="30dip"
+        android:text="Back"
+        android:background="#403e3e"
+        android:textColor="#33aaee"
+        />
+    
+    <Button 
+        android:id="@+id/title_close"
+        android:layout_width="wrap_content"
+        android:layout_height="30dip"
+        android:layout_alignParentRight="true"
+        android:text="Close"
+        android:background="#403e3e"
+        android:textColor="#33aaee"
+        />
+
+</RelativeLayout>
